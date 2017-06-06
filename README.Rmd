@@ -1,23 +1,13 @@
----
-title: "README"
-author: "scworland@usgs.gov"
-date: "6/6/2017"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 This package is a demo, and really doesn't do anything. You can install it by:
 
-```{r}
+```r
 library(devtools)
 install_github("scworland-usgs/demoPackage")
 ```
 
 If you want, you can also run this function:
 
-```{r}
+```r
 hello("tom","sally")
 ```
